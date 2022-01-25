@@ -5,7 +5,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv . --no-clear"
+    "start": "jekyll serve ."
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
