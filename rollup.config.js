@@ -29,7 +29,7 @@ function serve() {
 	};
 }
 
-const targetDir = 'docs';
+const targetDir = '.';
 const targetName = 'issuer';
 
 export default {
