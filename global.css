@@ -112,3 +112,7 @@ button:focus {
   text-align: center;
   padding: 1em;
 }
+
+pre {
+  padding: 1em;
+}

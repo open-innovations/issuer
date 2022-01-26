@@ -2,9 +2,8 @@
 permalink: privacy
 title: "Privacy :: Issuer"
 layout: base
-
 ---
-# Privacy Policy
+# Issuer Privacy Policy
 
 ## Pipedream workflow
 
