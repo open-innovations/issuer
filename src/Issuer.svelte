@@ -56,8 +56,12 @@
   :global(:root) {
     --issuer-header-fg: white;
     --issuer-header-bg: black;
+    --issuer-bg: white;
     --issuer-font-size: 0.8rem;
     --issuer-error-colour: red;
+  }
+  .issuer {
+    background: var(--issuer-bg);
   }
   /* Mini reset */
   :global(.issuer *) {

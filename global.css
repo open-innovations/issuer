@@ -4,10 +4,10 @@
   position: fixed;
   bottom: 0;
   right: 0;
+  left: 0;
   border: 1px solid gray;
 }
 .issuer {
-  width: 30em;
   /* Variable overrides - set at :root in issuer.css */
   --issuer-header-fg: hsl(0, 0%, 100%);
   --issuer-header-bg: hsl(325, 69%, 48%);
@@ -19,6 +19,14 @@
   padding: 0.5em;
 }
 
+@media screen and (min-width: 576px) {
+  #issuer-root { 
+    left: unset;
+  }
+  .issuer {
+    width: 30em;
+  }
+}
 
 /* Rest of the style */
 :root {
