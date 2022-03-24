@@ -3,7 +3,7 @@ import Issuer from './Issuer.svelte';
 if (!window.oi) window.oi = {};
 
 window.oi.issuer = (config = {}) => {
-  const { target, owner = 'open-innovations', repo, endpoint } = config;
+  const { target, owner = 'open-innovations', repo, endpoint, heading } = config;
 
   new Issuer({
     target,
@@ -11,6 +11,7 @@ window.oi.issuer = (config = {}) => {
       endpoint,
       owner,
       repo,
+      heading,
     },
   });
 };
