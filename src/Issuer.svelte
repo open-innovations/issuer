@@ -5,6 +5,7 @@
   export let endpoint;
   export let owner;
   export let repo;
+  export let heading = 'Tell us about a problem';
 
   const url = `${endpoint}?org=${owner}&repo=${repo}`;
 
@@ -36,7 +37,7 @@
 </script>
 
 <div class='issuer'>
-  <h1 on:click={ toggleForm }>Tell us about a problem</h1>
+  <h1 on:click={ toggleForm }>{ heading }</h1>
   <div class:hide class='form'>
     {#if !updater}
       <Form submit={ handler } />
